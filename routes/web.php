@@ -10,6 +10,10 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Route::get('/register', function () {
+    return view('auth.login');
+});
+
 // Route::middleware(['auth:sanctum', 'verified'])->get('post/{id}', PostCard::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/upload', function () {
