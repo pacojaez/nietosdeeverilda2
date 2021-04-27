@@ -5,7 +5,7 @@
         </div>
         <div class="w-1/6 relative mx-1">
             <select wire:model="orderBy" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                <option value="id">ID</option>
+                <option value="id">Orden de Subida</option>
                 <option value="title">Titulo</option>
                 <option value="file_name">Nombre de archivo</option>
                 <option value="created_at">Fecha de Subida</option>

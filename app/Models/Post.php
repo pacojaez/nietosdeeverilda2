@@ -58,13 +58,14 @@ class Post extends Model
                                 : static::query()
                                         ->where('id', 'like', '%'.$search.'%')
                                         ->orWhere('title', 'like', '%'.$search.'%')
+                                        ->orWhere('body', 'like', '%'.$search.'%')
                                         ->orWhere('place', 'like', '%'.$search.'%')
                                         ->orWhere('description', 'like', '%'.$search.'%')
                                         ->orWhere('file_name', 'like', '%'.$search.'%');
 
     }
-
     /**
+     * TO DO
      * Search by decade
      */
     // public function searchByDecade( $decade){
