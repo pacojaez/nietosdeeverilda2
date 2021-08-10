@@ -4,7 +4,7 @@
             {{ __('El Rincón de El Bardo Ibérico') }}
     </h2>
     </x-slot>--}}
-    <div class="flex flex-row">
+    <div class="flex flex-col md:flex-row">
         <div>
             @include('partials.navbardoiberico')
         </div>
@@ -12,12 +12,12 @@
 
         <div class="flex flex-col items-center justify-start w-full p-4 mb-4 bg-no-repeat bg-cover filter sepia ">
             <h2
-                class="p-3 mt-2 text-3xl font-bold leading-tight text-gray-200 bg-gray-800 rounded shadow-2xl mix-blend-multiply bg-opacity-80">
+                class="p-3 mt-2 text-xl md:text-3xl font-bold leading-tight text-gray-200 bg-gray-800 rounded shadow-2xl mix-blend-multiply bg-opacity-80">
                 SANTICOS DE LEÓN
 
             </h2>
             <h4
-                class="p-10 mb-2 text-lg font-bold leading-8 text-gray-200 bg-gray-800 rounded shadow-2xl bg-opacity-80">
+                class="p-10 mb-2 text-xs md:text-lg font-bold leading-8 text-gray-200 bg-gray-800 rounded shadow-2xl bg-opacity-80">
                 <span class="italic text-gray-400">
                     Homenaje a la "cuaderna vía" del "mester de clerecía".
                     <br>

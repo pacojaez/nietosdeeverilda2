@@ -1,22 +1,22 @@
 <x-app-layout>
     {{--<x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="text-xl font-semibold leading-tight text-gray-800">
             {{ __('El Rincón de El Bardo Ibérico') }}
     </h2>
     </x-slot>--}}
-    <div class="flex flex-row">
+    <div class="flex flex-col md:flex-row">
         <div>
             @include('partials.navbardoiberico')
         </div>
 
 
-        <div class="filter sepia flex flex-col w-full justify-start items-center mb-4 p-4 bg-cover bg-no-repeat ">
+        <div class="flex flex-col items-center justify-start w-full p-4 mb-4 bg-no-repeat bg-cover filter sepia ">
             <h2
-                class="mix-blend-multiply font-bold text-3xl text-gray-200 bg-gray-800 bg-opacity-80 leading-tight mt-2 p-3 shadow-2xl rounded">
+                class="p-3 mt-2 text-xl font-bold leading-tight text-gray-200 bg-gray-800 rounded shadow-2xl mix-blend-multiply md:text-3xl bg-opacity-80">
                 QUINTILLAS
             </h2>
             <h4
-                class="font-bold text-lg text-gray-200 mb-2 p-10 leading-8 bg-gray-800 bg-opacity-80 shadow-2xl rounded">
+                class="p-10 mb-2 text-xs font-bold leading-8 text-gray-200 bg-gray-800 rounded shadow-2xl md:text-lg bg-opacity-80">
                 <span class="italic text-gray-400">
                     Homenaje a Sem Tob, rabí de Carrión de los Condes
                 </span>
