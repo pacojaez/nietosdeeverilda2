@@ -33,5 +33,19 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/post/{_id}', PostCard::cl
 Route::middleware(['auth:sanctum', 'verified'])->get('/users', [UserController::class, 'index'])
 ->name('users');
 
-	
+/********* bardo iberico  */
+Route::view('/elbardoiberico', 'elbardoiberico');
+
+Route::view('/elbardoiberico/avillafer', 'avillafer');
+Route::view('/elbardoiberico/aalfonsovi', 'aalfonsovi');
+Route::view('/elbardoiberico/loscisnesderuben', 'loscisnesderuben');
+Route::view('/elbardoiberico/ovillejos', 'ovillejos');
+Route::view('/elbardoiberico/quintillas', 'quintillas');
+Route::view('/elbardoiberico/redondillas', 'redondillas');
+Route::view('/elbardoiberico/santicosdeleon', 'santicosdeleon');
+Route::view('/elbardoiberico/seguidilladelaera', 'seguidilladelaera');
+Route::view('/elbardoiberico/villanelladelaguadelrio', 'villanelladelaguadelrio');
+
+
+
 Route::resource('comments', 'CommentsController');
