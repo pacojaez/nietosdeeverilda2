@@ -34,7 +34,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/users', [UserController::
 ->name('users');
 
 /********* bardo iberico  */
-Route::view('/elbardoiberico', 'elbardoiberico');
+Route::view('/elbardoiberico', 'elbardoiberico')->name('elbardoiberico');
 
 Route::view('/elbardoiberico/avillafer', 'avillafer');
 Route::view('/elbardoiberico/aalfonsovi', 'aalfonsovi');

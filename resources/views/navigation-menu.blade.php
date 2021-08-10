@@ -21,6 +21,9 @@
                     <x-jet-nav-link href="{{ route('upload') }}" :active="request()->routeIs('upload')">
                         {{ __('Subir Foto') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('elbardoiberico') }}" :active="request()->routeIs('elbardoiberico')">
+                        {{ __('El Bardo Ibérico') }}
+                    </x-jet-nav-link>
                         @if (Auth::user()->current_team_id == 1)
                         <x-jet-nav-link href="{{ route('users') }}" :active="request()->routeIs('users')">
                             {{ __('Users') }}
@@ -154,6 +157,9 @@
             </x-jet-responsive-nav-link>
             <x-jet-responsive-nav-link href="{{ route('upload') }}" :active="request()->routeIs('upload')">
                 {{ __('Subir Foto') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('elbardoiberico') }}" :active="request()->routeIs('elbardoiberico')">
+                {{ __('El Bardo Ibérico') }}
             </x-jet-responsive-nav-link>
         </div>
 
