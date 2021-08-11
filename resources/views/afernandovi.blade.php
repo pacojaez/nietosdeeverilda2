@@ -13,7 +13,7 @@
         <div class="flex flex-col items-center justify-start w-full p-4 mb-4 bg-no-repeat bg-cover filter sepia ">
             <h2
                 class="p-3 mt-2 text-xl font-bold leading-tight text-gray-200 bg-gray-800 rounded shadow-2xl md:text-3xl mix-blend-multiply bg-opacity-80">
-                A ALFONSO VI EN SU TUMBA DE SAHAGÚN
+                A FERNANDO VI EN SU TUMBA DE SAHAGÚN
             </h2>
             <h4
                 class="p-10 mb-2 text-xs font-bold leading-8 text-gray-200 bg-gray-800 rounded shadow-2xl md:text-lg bg-opacity-80">

@@ -37,7 +37,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/users', [UserController::
 Route::view('/elbardoiberico', 'elbardoiberico')->name('elbardoiberico');
 
 Route::view('/elbardoiberico/avillafer', 'avillafer');
-Route::view('/elbardoiberico/aalfonsovi', 'aalfonsovi');
+Route::view('/elbardoiberico/afernandovi', 'afernandovi');
 Route::view('/elbardoiberico/loscisnesderuben', 'loscisnesderuben');
 Route::view('/elbardoiberico/ovillejos', 'ovillejos');
 Route::view('/elbardoiberico/quintillas', 'quintillas');

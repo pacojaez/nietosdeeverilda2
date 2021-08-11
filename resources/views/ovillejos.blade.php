@@ -65,7 +65,7 @@
                 <br>
                 Si está alboreando el día<br>
                 María.<br>
-                Si está en si cenit la luz<br>
+                Si está en su cenit la luz<br>
                 La Cruz.<br>
                 Si la noche causa espanto<br>
                 El santo.<br>

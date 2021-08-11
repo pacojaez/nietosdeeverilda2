@@ -27,7 +27,7 @@
                 <br>
                 1. Santicos de león, sacra legión protectora<br>
                 Moráis en nuestra tierra y sois de la Señora<br>
-                Patrona de la Vega, alegra compañía<br>
+                Patrona de la Vega, alegre compañía<br>
                 Por Cristo bendecida y por Santa María.<br>
                 <br>
                 Primero fue de todos el centurión romano,<br>

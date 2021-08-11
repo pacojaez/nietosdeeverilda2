@@ -48,7 +48,7 @@ Hace adobes en la Vega.<br>
 
 <br>
 
-2. O adobes terracampinos<br>
+2. Oh adobes terracampinos<br>
 
 Para trazar palomares,<br>
 
